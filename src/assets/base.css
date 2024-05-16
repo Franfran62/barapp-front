@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  --primary: #03AED2; /* Couleur principale */
+  --secondary: #68D2E8; /* Couleur secondaire */
+  --tertiary: #FDDE55; /* Couleur tertiaire */
+  --quaternary: #FEEFAD; /* Couleur quaternaire */
+
+  --quaternary-rgba: 254, 239, 173;
+  --success-rgba: 76, 175, 80;
+
+  --font-dark: #000000; /* Couleur de texte foncé */
+  --font-white: #fff; /* Couleur de texte clair */  
+
+  --success: #4CAF50; /* Couleur de succès */
+  --danger: #F44336; /* Couleur d'erreur */
+}
+
+#app {
+  min-height: 100vh;
+  border: 1px solid var(--secondary);
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Poppins', Arial, sans-serif;;
+  font-weight: 400; /* Regular */
+}
+
+.client {
+  max-width: 500px !important; 
+}
+
+.admin {
+  max-width: 1600px !important; 
+}
+
+
+h1, h2, h3, h4, h5, h6, .headers {
+  font-family: 'Lora', Times, serif;
+  font-weight: 500; /* SemiBold */
+}
+
+.extralight {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 200; /* ExtraLight */ 
+}
+
+
